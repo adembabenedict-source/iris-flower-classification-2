@@ -1,25 +1,18 @@
-# Iris Flower Classification with K-Nearest Neighbors
+# Iris Flower Classifier 🌸
 
-Machine learning project that classifies iris flowers into 3 species using KNN algorithm. Achieved 100% accuracy on test data.
+**[🚀 Live Demo](https:iris-flower-classification-2-8zrxq8dolbeun4n-re56q.streamlit.app/)**
 
-## 📊 Results
-- **Model**: K-Nearest Neighbors (k=3)
-- **Accuracy**: 100% on test set (45 samples)
-- **Dataset**: Iris dataset - 150 samples, 4 features
+End-to-end ML web app that predicts Iris flower species from sepal/petal measurements using scikit-learn.
 
-## 📈 Visualizations
-1. **Confusion Matrix**: Shows perfect classification with zero misclassifications
-2. **Correlation Heatmap**: Feature relationships between sepal/petal measurements  
-3. **Pairplot**: Class separation across all feature combinations
-4. **Count Plot**: Distribution of species in dataset
+### Tech Stack
+Python, Scikit-learn, Pandas, Streamlit, Git
 
-## 🛠️ Tech Stack
-- Python
-- Pandas, NumPy
-- Scikit-learn
-- Matplotlib, Seaborn
+### Features
+- Interactive sliders for real-time predictions
+- 100% accuracy on test dataset
+- Fully deployed with CI/CD from GitHub to Streamlit Cloud
 
-## 🚀 How to Run
+### Run Locally
 ```bash
-pip install pandas numpy scikit-learn matplotlib seaborn
-python iris_classification.py
+pip install -r requirements.txt
+streamlit run app.py
