@@ -1,6 +1,6 @@
 # Iris Flower Classifier 🌸
 
-**[🚀 Live Demo](https://iris-flower-classification-2-8zrxq8k8dolbeun4n-re56q.streamlit.app/)**
+**[🚀 Live Demo](https://iris-flower-classification-2-8zrxq8k8d0lbeun4n-re56g.streamlit.app/)**
 
 End-to-end ML web app that predicts Iris flower species from sepal/petal measurements using scikit-learn.
 
