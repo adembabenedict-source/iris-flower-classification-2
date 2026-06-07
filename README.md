@@ -9,7 +9,8 @@ Python, Scikit-learn, Pandas, Streamlit, Git
 
 ### Features
 - Interactive sliders for real-time predictions
-- 100% accuracy on test dataset
+- Trained on the classic Iris dataset with 100% test accuracy
+- Clean UI with instant results
 - Fully deployed with CI/CD from GitHub to Streamlit Cloud
 
 ### Run Locally
